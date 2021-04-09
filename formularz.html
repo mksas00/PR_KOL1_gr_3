@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+</head>
+<body>
+
+<div style="margin-top: 50px ">
+    <form class="row g-3" style="width:80%;padding-left:50px;padding-top:20px;">
+
+    <div class="email">
+         <input type="email" id="email_txt" placeholder="Email">
+    </div>
+
+    <div class="temat">
+        <input type="text" id="temat_txt" placeholder="Temat">
+    </div>
+
+    <div class="tekst">
+        <textarea rows="4" id="tekst_txt" cols="50" placeholder="Wiadomość" style="width:50%;">
+
+        </textarea>
+    </div>
+
+
+</form>
+
+    <div style="margin-top:20px;">
+
+        <button  class="btn btn-primary">Wyślij</button>
+        <button type="reset" class="btn btn-danger">Wyczyść</button>
+
+    </div>
+
+
+</div>
+
+<div class="txt_area" style="margin-top: 50px; visibility: hidden">
+
+    <p>
+
+
+        Wiadmość:
+       <br> Email:
+       <br> Wiadomość:
+        <br>
+
+        <br>Wiadomość została wysłana.
+    </p>
+
+</div>
+
+<script src = "script.js"></script>
+</body>
+</html>
